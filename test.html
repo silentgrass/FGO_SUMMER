@@ -12,7 +12,7 @@
 <div class="controllerDiv">
 <table id="controlPanel" class="panel">
   <tr>
-     <td style="width:30%;text-align: left;">Drop Item:</td>
+     <td style="width:30%;text-align: left;">掉落物:</td>
      <td style="width:70%;test-align: right;">
         <select id="itemSelector">
           <option value="water">純水</option>
@@ -51,7 +51,7 @@
      </td>
   </tr>
 </table>
-<input type="button" value="filter" onclick="filterRun();" style="z-index:2;"/>
+<input type="button" value="開始篩選" onclick="filterRun();" style="z-index:2;"/>
 </div>
 <hr/>
 <div id="resultDiv">
@@ -127,27 +127,27 @@
 </table>
 </div>
 <hr/>
-<h3>party member</h3>
+<h3>隊伍成員與禮裝</h3>
 <div id="partyDiv">
 <ul id="partyList">
 </ul>
 <h3>cost & item bouns</h3>
 cost:<span id="cost" style="font-size:1cm">0</span>
-food:<span id="food" style="font-size:1cm">0</span>
-water:<span id="water" style="font-size:1cm">0</span>
-wood:<span id="wood" style="font-size:1cm">0</span>
-stone:<span id="stone" style="font-size:1cm">0</span>
-iron:<span id="iron" style="font-size:1cm">0</span>
+　食物:<span id="food" style="font-size:1cm">0</span>
+　純水:<span id="water" style="font-size:1cm">0</span>
+　木材:<span id="wood" style="font-size:1cm">0</span>
+　石材:<span id="stone" style="font-size:1cm">0</span>
+　鐵塊:<span id="iron" style="font-size:1cm">0</span>
 </div>
 <hr/>
 <div>
 <p>note：<br/>
-沙灘：food/water，寄居蟹(劍)與boss大型寄居蟹(劍)<br/>
-草原：stone/food，飛蟲(騎)與boss雙角馬(槍)<br/>
-洞窟：iron/water，石頭(狂)與boss眼球(弓)<br/>
-叢林：wood/food，海魔(弓)與boss奇美拉(狂)<br/>
-山地：wood/stone/iron，飛龍與boss巨龍<br/>
-原始林：food/water，魔豬(狂)與boss黑獸(殺)<br/>
+沙灘：食物/純水　　　　寄居蟹(劍)與boss大型寄居蟹(劍)　純水多於食物<br/>
+草原：石材/食物　　　　飛蟲(騎)與boss雙角馬(槍)<br/>
+洞窟：鐵塊/純水　　　　石頭(狂)與boss眼球(弓)<br/>
+叢林：木材/食物　　　　海魔(弓)與boss奇美拉(狂)<br/>
+山地：木材/石材/鐵塊　飛龍(騎)、寄居蟹(劍)與boss巨龍(騎)<br/>
+叢林：食物/純水　　　　魔豬(狂)與boss黑獸(殺)　食物多於純水<br/>
 
 
 </p>
@@ -157,7 +157,7 @@ iron:<span id="iron" style="font-size:1cm">0</span>
   <option value="0" selected="selected" item="N/A">無</option>
   <option value='12' item='iron'>船長(鐵)</option>
   <option value='9' item='stone'>阿塔(石)</option>
-  <option value='5' item='wood'>布丁(木)</option>
+  <option value='5' item='wood'>布迪卡(木)</option>
   <option value='12' item='waterfood'>卡蜜拉(水+食)</option>
   <option value="12" item="N/A">其他5☆</option>
   <option value="9" item="N/A">其他4☆</option>

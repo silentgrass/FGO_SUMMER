@@ -85,9 +85,9 @@ function joinUnit(obj){
   $(copySelector).bind("change" , caculator);
 
   $("#partyList").append("<li class='party' cost='"+$(obj).attr('value')+"'></li>");
-  $("#partyList").children().last().append("<span class='"+$(obj).attr('item')+"'>"+$(obj).attr('svName')+"</span>&nbsp;");
+  $("#partyList").children().last().append("<span class='"+$(obj).attr('item')+"'>"+$(obj).attr('svName')+" "+$(obj).attr('item')+"</span>&nbsp;");
   $("#partyList").children().last().append(copySelector);
-  $("#partyList").children().last().append("&nbsp;<input type='button' name='"+$(obj).attr('svName')+"' value='remove' onclick='removeUnit(this);'>");
+  $("#partyList").children().last().append("&nbsp;<input type='button' name='"+$(obj).attr('svName')+"' value='離隊' onclick='removeUnit(this);'>");
 
   caculator();
 }

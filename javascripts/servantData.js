@@ -61,7 +61,7 @@
 
        servantData[10] = {"class" : "archer" ,
                           "rarity": "4",
-                          "name" : "土狼" , 
+                          "name" : "衛宮(紅茶)" , 
                           "cost" : "12",
                           "item" : "iron"};
 
@@ -151,13 +151,13 @@
 
        servantData[25] = {"class" : "rider" ,
                           "rarity": "3",
-                          "name" : "布丁卡" , 
+                          "name" : "布狄卡" , 
                           "cost" : "7",
                           "item" : "water"};
 
        servantData[26] = {"class" : "rider" ,
                           "rarity": "3",
-                          "name" : "牛肉丸" , 
+                          "name" : "牛若丸" , 
                           "cost" : "7",
                           "item" : "wood"};
 
@@ -517,13 +517,13 @@
 
        servantData[86] = {"class" : "lancer" ,
                           "rarity": "5",
-                          "name" : "病嬌布姐" , 
+                          "name" : "布倫希爾德" , 
                           "cost" : "16",
                           "item" : "iron"};
 
        servantData[87] = {"class" : "bserserker" ,
                           "rarity": "4",
-                          "name" : "貝不愁沒(略)" , 
+                          "name" : "貝奧武夫" , 
                           "cost" : "12",
                           "item" : "wood"};
 
@@ -571,7 +571,7 @@
 
        servantData[95] = {"class" : "berserker" ,
                           "rarity": "5",
-                          "name" : "夜鶯" , 
+                          "name" : "南丁格爾" , 
                           "cost" : "16",
                           "item" : "water"};
 

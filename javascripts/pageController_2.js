@@ -138,10 +138,9 @@ function caculator(){
       lightSum += 1;
 	}else if($(this).children(":selected").attr("item") == "eadrom"){
       eadromSum += 1;
-    }else if($(this).children(":selected").attr("item") == "lighteadromrealta"){
-      lightSum += 1;
-      eadromSum += 1;
-	  realtaSum +=1;
+    }else if($(this).children(":selected").attr("item") == "cementoli"){
+      cementSum += 1;
+      oilSum += 1;
     }
 
     cost += parseInt($(this).val());

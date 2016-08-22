@@ -16,13 +16,19 @@
   <tr>
      <td style="width:30%;text-align: left;">掉落物:</td>
      <td style="width:70%;test-align: right;">
-        <select id="itemSelector">
+        <!--<select id="itemSelector">
+		  <option value="all">全選</option>
           <option value="water">純水</option>
           <option value="food">食材</option>
           <option value="stone">石材</option>          
           <option value="wood">木材</option>
-          <option value="iron">鐵塊</option>
-        </select>
+          <option value=""></option>
+        </select>-->
+         <input type="radio" name="itemSelector" value="water" style="WIDTH: 30px; HEIGHT: 30px" checked="true" /><img src="./images/water.png" alt="food" height="30" width="30">
+         <input type="radio" name="itemSelector" value="food" style="WIDTH: 30px; HEIGHT: 30px" /><img src="./images/food.png" alt="food" height="30" width="30">
+         <input type="radio" name="itemSelector" value="stone" style="WIDTH: 30px; HEIGHT: 30px" /><img src="./images/stone.png" alt="stone" height="30" width="30">
+         <input type="radio" name="itemSelector" value="wood" style="WIDTH: 30px; HEIGHT: 30px" /><img src="./images/wood.png" alt="wood" height="30" width="30">
+         <input type="radio" name="itemSelector" value="iron" style="WIDTH: 30px; HEIGHT: 30px" /><img src="./images/iron.png" alt="iron" height="30" width="30">
      </td>
   </tr>
   <tr> 
@@ -129,17 +135,18 @@
 </table>
 </div>
 <hr/>
+
+<div id="partyDiv" style="text-align: center">
 <h3>隊伍成員與禮裝</h3>
-<div id="partyDiv">
 <ul id="partyList">
 </ul>
 <h3>cost & item bouns</h3>
-cost:<span id="cost" style="font-size:1cm">0</span>
-　食物:<span id="food" style="font-size:1cm">0</span>
-　純水:<span id="water" style="font-size:1cm">0</span>
-　木材:<span id="wood" style="font-size:1cm">0</span>
-　石材:<span id="stone" style="font-size:1cm">0</span>
-　鐵塊:<span id="iron" style="font-size:1cm">0</span>
+cost:<span id="cost" style="font-size:40px">0</span>　
+  <img src="./images/food.png" alt="food" height="40" width="40"><span id="food" style="font-size:40px">0</span>　
+　<img src="./images/water.png" alt="water" height="40" width="40"><span id="water" style="font-size:40px">0</span>　
+　<img src="./images/wood.png" alt="wood" height="40" width="40"><span id="wood" style="font-size:40px">0</span>　
+　<img src="./images/stone.png" alt="stone" height="40" width="40"><span id="stone" style="font-size:40px">0</span>　
+   <img src="./images/iron.png" alt="iron" height="40" width="40"><span id="iron" style="font-size:40px">0</span>　
 </div>
 <hr/>
 <div>

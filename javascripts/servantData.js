@@ -511,7 +511,7 @@
 
        servantData[85] = {"class" : "lancer" ,
                           "rarity": "4",
-                          "name" : "水槍哥" , 
+                          "name" : "芬恩" , 
                           "cost" : "12",
                           "item" : "water"};
 

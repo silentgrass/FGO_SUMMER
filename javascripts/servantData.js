@@ -521,7 +521,7 @@
                           "cost" : "16",
                           "item" : "iron"};
 
-       servantData[87] = {"class" : "bserserker" ,
+       servantData[87] = {"class" : "berserker" ,
                           "rarity": "4",
                           "name" : "貝奧武夫" , 
                           "cost" : "12",

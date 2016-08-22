@@ -138,7 +138,7 @@ function caculator(){
       lightSum += 1;
 	}else if($(this).children(":selected").attr("item") == "eadrom"){
       eadromSum += 1;
-    }else if($(this).children(":selected").attr("item") == "cementoli"){
+    }else if($(this).children(":selected").attr("item") == "cementoil"){
       cementSum += 1;
       oilSum += 1;
     }

@@ -16,7 +16,11 @@ function filterRun(){
   
   var rareCheck = $("#rarityCheck").val();
   var classCheck = $("#classSelector").val();
-  var itemCheck = $("#itemSelector").val();
+  //var itemCheck = $("#itemSelector").val();
+  var itemCheck =$('input[name="itemSelector"]:checked').val();
+
+
+//
 
   for (var i = 0; i < servantData.length ; i++){
     

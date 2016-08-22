@@ -16,13 +16,19 @@
   <tr>
      <td style="width:30%;text-align: left;">掉落物:</td>
      <td style="width:70%;test-align: right;">
-        <select id="itemSelector">
+        <!--<select id="itemSelector">
           <option value="light">イシュカ合金</option>
           <option value="eadrom">エードラム合金</option>
           <option value="realta">レアルタ合金</option>          
           <option value="oil">油</option>
           <option value="cement">水泥</option>
         </select>
+		-->
+		 <input type="radio" name="itemSelector" value="light" style="WIDTH: 30px; HEIGHT: 30px" checked="true" /><img src="./images/light.png" alt="light" height="30" width="30">
+         <input type="radio" name="itemSelector" value="eadrom" style="WIDTH: 30px; HEIGHT: 30px" /><img src="./images/eadrom.png" alt="eadrom" height="30" width="30">
+         <input type="radio" name="itemSelector" value="realta" style="WIDTH: 30px; HEIGHT: 30px" /><img src="./images/realta.png" alt="realta" height="30" width="30">
+         <input type="radio" name="itemSelector" value="cement" style="WIDTH: 30px; HEIGHT: 30px" /><img src="./images/cement.png" alt="cement" height="30" width="30">
+         <input type="radio" name="itemSelector" value="oil" style="WIDTH: 30px; HEIGHT: 30px" /><img src="./images/oil.png" alt="oil" height="30" width="30">
      </td>
   </tr>
   <tr> 
@@ -129,17 +135,25 @@
 </table>
 </div>
 <hr/>
+
+<div id="partyDiv" style="text-align: center">
 <h3>隊伍成員與禮裝</h3>
-<div id="partyDiv">
 	<ul id="partyList">
 	</ul>
 	<h3>cost & item bouns</h3>
-		cost:<span id="cost" style="font-size:1cm">0</span>
+		<!--cost:<span id="cost" style="font-size:1cm">0</span>
 		イシュカ合金:<span id="light" style="font-size:1cm">0</span>
 		エードラム合金:<span id="eadrom" style="font-size:1cm">0</span>
 		レアルタ合金:<span id="realta" style="font-size:1cm">0</span>
 		水泥:<span id="cement" style="font-size:1cm">0</span>
 		油:<span id="oil" style="font-size:1cm">0</span>
+		-->
+		cost:<span id="cost" style="font-size:40px">0</span>　		
+		<img src="./images/light.png" alt="light" height="40" width="40"><span id="light" style="font-size:40px">0</span>　
+		<img src="./images/eadrom.png" alt="eadrom" height="40" width="40"><span id="eadrom" style="font-size:40px">0</span>　
+		<img src="./images/realta.png" alt="realta" height="40" width="40"><span id="realta" style="font-size:40px">0</span>　
+		<img src="./images/cement.png" alt="cement" height="40" width="40"><span id="cement" style="font-size:40px">0</span>　
+		<img src="./images/oil.png" alt="oil" height="40" width="40"><span id="oil" style="font-size:40px">0</span>　
 </div>
 <hr/>
 <div>

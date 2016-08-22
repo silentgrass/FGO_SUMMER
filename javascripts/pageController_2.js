@@ -16,7 +16,8 @@ function filterRun(){
   
   var rareCheck = $("#rarityCheck").val();
   var classCheck = $("#classSelector").val();
-  var itemCheck = $("#itemSelector").val();
+  //var itemCheck = $("#itemSelector").val();
+  var itemCheck =$('input[name="itemSelector"]:checked').val();
 
   for (var i = 0; i < servantData.length ; i++){
     
@@ -85,7 +86,8 @@ function joinUnit(obj){
   $(copySelector).bind("change" , caculator);
 
   $("#partyList").append("<li class='party' cost='"+$(obj).attr('value')+"'></li>");
-  $("#partyList").children().last().append("<span class='"+$(obj).attr('item')+"'>"+$(obj).attr('svName')+" "+$(obj).attr('item')+"</span>&nbsp;");
+  //$("#partyList").children().last().append("<span class='"+$(obj).attr('item')+"'>"+$(obj).attr('svName')+" "+$(obj).attr('item')+"</span>&nbsp;");
+  $("#partyList").children().last().append("<span class='"+$(obj).attr('item')+"'>"+$(obj).attr('svName')+" <img src="+"./images/"+$(obj).attr('item')+".png height="+"20"+" width="+"20"+"></span>&nbsp;");
   $("#partyList").children().last().append(copySelector);
   $("#partyList").children().last().append("&nbsp;<input type='button' name='"+$(obj).attr('svName')+"' value='離隊' onclick='removeUnit(this);'>");
 

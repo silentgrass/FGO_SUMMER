@@ -8,8 +8,8 @@ function startTime() {
     var m = today.getMinutes();
     var s = today.getSeconds();
 
-    mm = cheakTime(mm);
-    dd = cheakTime(dd);
+    mm = checkTime(mm);
+    dd = checkTime(dd);
     m = checkTime(m);
     s = checkTime(s);
 

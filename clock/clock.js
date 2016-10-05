@@ -13,7 +13,7 @@ function startTime() {
     m = checkTime(m);
     s = checkTime(s);
 
-    document.getElementById('clock').innerHTML = yyyy+"//"+mm+"//"+dd+" "+h+":"+m+":"+s;
+    document.getElementById('clock').innerHTML =h+":"+m+":"+s;
     setTimeout(function(){startTime()},200);
 }
 

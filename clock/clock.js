@@ -1,19 +1,19 @@
 function startTime() {
     var today = new Date();
-    var Y = today.getFullYear();
-    var M = today.getMonth()+1;
-    var D = today.getDate();
+    var yyyy = today.getFullYear();
+    var mm = today.getMonth()+1;
+    var dd = today.getDate();
 	
     var h = today.getHours();
     var m = today.getMinutes();
     var s = today.getSeconds();
 
-    M = cheakTime(M);
-    D = cheakTime(D);
+    mm = cheakTime(mm);
+    dd = cheakTime(dd);
     m = checkTime(m);
     s = checkTime(s);
 
-    document.getElementById('clock').innerHTML = Y+"//"+M+"//"+D+" "+h+":"+m+":"+s;
+    document.getElementById('clock').innerHTML = yyyy+"//"+mm+"//"+dd+" "+h+":"+m+":"+s;
     setTimeout(function(){startTime()},200);
 }
 

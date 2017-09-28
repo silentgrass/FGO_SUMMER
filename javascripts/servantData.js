@@ -55,7 +55,7 @@
 
        servantData[9] = {"class" : "saber" ,
                           "rarity": "4",
-                          "name" : "德翁" , 
+                          "name" : "迪昂" , 
                           "cost" : "12",
                           "item" : "water"};
 
@@ -271,7 +271,7 @@
 
        servantData[45] = {"class" : "assassin" ,
                           "rarity": "4",
-                          "name" : "卡蜜拉" , 
+                          "name" : "卡米拉" , 
                           "cost" : "12",
                           "item" : "food"};
 
@@ -415,7 +415,7 @@
 
        servantData[69] = {"class" : "lancer" ,
                           "rarity": "5",
-                          "name" : "槍師匠" , 
+                          "name" : "斯卡哈" , 
                           "cost" : "16",
                           "item" : "food"};
 
@@ -805,3 +805,4 @@
 
 
 }
+
